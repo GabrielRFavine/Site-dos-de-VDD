@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: Georgia;
 }
 
 body{
@@ -26,7 +27,7 @@ body{
     background-color: rgb(31, 31, 31);
     justify-content: space-between;
     padding: 0 5%;
-    box-shadow: 1px 1px 5px #000000;
+    box-shadow: 1px 1px 10px #7c7a7a;
 }
 .navigation_header a{
     text-decoration: none;
@@ -41,4 +42,112 @@ body{
 
 .navigation_header{
     gap: 56px;
+}
+
+.navigation_header a:hover{
+    color: rgb(29, 13, 12);
+    background-color: #ff3131;
+}
+
+.paragrafoMain{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 300px;
+    color: white;
+}
+
+.subParagrafoMain{
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    margin-top: 15px;
+}
+
+footer{
+    background-color: rgb(31, 31, 31);
+    padding: 50px 0;
+    box-shadow: 5px 1px 10px #7c7a7a;
+    margin-top: 261px;
+}
+
+.container-footer{
+    max-width: 1400px;
+    padding: 0 4%;
+    margin: auto;
+}
+
+.row-footer{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer-col{
+    width: 25%;
+    padding: 0 0px;
+}
+
+.footer-col h4{
+    font-size: 22px;
+    color: #ff3131;
+    margin-bottom: 20px;
+    font-weight: 500;
+    position: relative;
+    text-transform: uppercase;
+}
+
+.footer-col ul{
+    list-style: none;
+}
+
+.footer-col ul li{
+    margin: 10px 0;
+}
+
+.footer-col ul li a{
+    font-size: 16px;
+    text-transform: capitalize;
+    color: white;
+    text-decoration: none;
+    font-weight: 300;
+    display: block;
+    transition: all 0.3s ease;
+}
+
+.footer-col ul li a:hover{
+    color: white;
+    padding-left: 10px;
+}
+
+.footer-col .form-spam input{
+    width: 100%;
+    padding: 10px;
+    font-size: 15px;
+    outline: none;
+    border: 1px solid white;
+    color: white;  
+    background-color: #ff3131;
+}
+
+.footer-col .form-spam input::placeholder{
+    color: white;
+}
+
+.footer-col .form-spam button{
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 17px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+    font-weight: bold;
+    background-color: white;
+    
+}
+
+.footer-col .form-spam button:hover{
+    color: #ff3131;
+    background-color: black;
+    transition: 0.6s ease;
 }
